@@ -305,13 +305,17 @@ border: 2px solid red;
     }
 
     .gender .container {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     
     .input label {
 
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .input .text-input#age {
+      font-size: 14px;
     }
 
     .inputH label, .inputW label {
@@ -324,7 +328,7 @@ border: 2px solid red;
     }
 
     .input .inputH input, .inputW input{
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
