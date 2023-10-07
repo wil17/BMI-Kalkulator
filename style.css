@@ -17,19 +17,19 @@
 
   .box {
     margin-top: 40px;
-    max-width: 400px; /* Ubah nilai max-width */
+    max-width: 400px;
     width: 100%;
     background: #fafafa;
     border-radius: 12px;
     text-align: center;
     box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
-    padding: 10px 20px; /* Kurangi padding */
+    padding: 10px 20px;
     height: auto;
 }
 
 .content {
     padding: 0 10px; 
-    height: auto;/* Kurangi padding */
+    height: auto;
 }
 
 
@@ -46,17 +46,17 @@
     background: #fff;
     box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-    padding: 10px 0; /* Kurangi padding */
-    margin-bottom: 10px; /* Kurangi margin */
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 .input label {
-    font-size: 16px; /* Kurangi ukuran font */
-    margin-bottom: 10px; /* Kurangi margin */
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .input input {
-    font-size: 16px; /* Kurangi ukuran font */
+    font-size: 16px;
 }
 
 
@@ -318,16 +318,17 @@ border: 2px solid red;
         font-size: 14px;
     }
 
+    .input {
+      padding: 2px;
+      font-size: 14px;
+    }
 
-    .input input, .inputH input, .inputW input{
-        font-size: 18px;
+    .input .inputH input, .inputW input{
+        font-size: 16px;
     }
 
 
     .modal-content {
       width: 340px;
-    }
-
-
-
-}
+    
+    }}
